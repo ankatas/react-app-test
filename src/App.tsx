@@ -1,6 +1,5 @@
-import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './styles/App.scss';
 import User from './User';
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
       </div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Welcome :)
         </p>
         <a
           className="App-link"
