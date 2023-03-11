@@ -1,11 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import User from './User';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <div>
+        <User name="John Doe" email="john.doe@example.com" avatarUrl="https://example.com/avatar.jpg" />
+      </div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
